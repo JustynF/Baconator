@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10EDEA028EFB01900486C36 /* BaconatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EDE9F28EFB01900486C36 /* BaconatorApp.swift */; };
+		D10EDEA228EFB01900486C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EDEA128EFB01900486C36 /* ContentView.swift */; };
+		D10EDEA428EFB01A00486C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10EDEA328EFB01A00486C36 /* Assets.xcassets */; };
+		D10EDEA728EFB01A00486C36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10EDEA628EFB01A00486C36 /* Preview Assets.xcassets */; };
+		D10EDEB128EFB01A00486C36 /* BaconatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EDEB028EFB01A00486C36 /* BaconatorTests.swift */; };
+		D10EDEBB28EFB01A00486C36 /* BaconatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EDEBA28EFB01A00486C36 /* BaconatorUITests.swift */; };
+		D10EDEBD28EFB01A00486C36 /* BaconatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10EDEBC28EFB01A00486C36 /* BaconatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D10EDEAD28EFB01A00486C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10EDE9428EFB01900486C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10EDE9B28EFB01900486C36;
+			remoteInfo = Baconator;
+		};
+		D10EDEB728EFB01A00486C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10EDE9428EFB01900486C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10EDE9B28EFB01900486C36;
+			remoteInfo = Baconator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D10EDE9C28EFB01900486C36 /* Baconator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baconator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10EDE9F28EFB01900486C36 /* BaconatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaconatorApp.swift; sourceTree = "<group>"; };
+		D10EDEA128EFB01900486C36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D10EDEA328EFB01A00486C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10EDEA628EFB01A00486C36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D10EDEAC28EFB01A00486C36 /* BaconatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaconatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10EDEB028EFB01A00486C36 /* BaconatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaconatorTests.swift; sourceTree = "<group>"; };
+		D10EDEB628EFB01A00486C36 /* BaconatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaconatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10EDEBA28EFB01A00486C36 /* BaconatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaconatorUITests.swift; sourceTree = "<group>"; };
+		D10EDEBC28EFB01A00486C36 /* BaconatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaconatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10EDE9928EFB01900486C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10EDEA928EFB01A00486C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10EDEB328EFB01A00486C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10EDE9328EFB01900486C36 = {
+			isa = PBXGroup;
+			children = (
+				D10EDE9E28EFB01900486C36 /* Baconator */,
+				D10EDEAF28EFB01A00486C36 /* BaconatorTests */,
+				D10EDEB928EFB01A00486C36 /* BaconatorUITests */,
+				D10EDE9D28EFB01900486C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10EDE9D28EFB01900486C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10EDE9C28EFB01900486C36 /* Baconator.app */,
+				D10EDEAC28EFB01A00486C36 /* BaconatorTests.xctest */,
+				D10EDEB628EFB01A00486C36 /* BaconatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10EDE9E28EFB01900486C36 /* Baconator */ = {
+			isa = PBXGroup;
+			children = (
+				D10EDE9F28EFB01900486C36 /* BaconatorApp.swift */,
+				D10EDEA128EFB01900486C36 /* ContentView.swift */,
+				D10EDEA328EFB01A00486C36 /* Assets.xcassets */,
+				D10EDEA528EFB01A00486C36 /* Preview Content */,
+			);
+			path = Baconator;
+			sourceTree = "<group>";
+		};
+		D10EDEA528EFB01A00486C36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D10EDEA628EFB01A00486C36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D10EDEAF28EFB01A00486C36 /* BaconatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D10EDEB028EFB01A00486C36 /* BaconatorTests.swift */,
+			);
+			path = BaconatorTests;
+			sourceTree = "<group>";
+		};
+		D10EDEB928EFB01A00486C36 /* BaconatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D10EDEBA28EFB01A00486C36 /* BaconatorUITests.swift */,
+				D10EDEBC28EFB01A00486C36 /* BaconatorUITestsLaunchTests.swift */,
+			);
+			path = BaconatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10EDE9B28EFB01900486C36 /* Baconator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10EDEC028EFB01A00486C36 /* Build configuration list for PBXNativeTarget "Baconator" */;
+			buildPhases = (
+				D10EDE9828EFB01900486C36 /* Sources */,
+				D10EDE9928EFB01900486C36 /* Frameworks */,
+				D10EDE9A28EFB01900486C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baconator;
+			productName = Baconator;
+			productReference = D10EDE9C28EFB01900486C36 /* Baconator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10EDEAB28EFB01A00486C36 /* BaconatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10EDEC328EFB01A00486C36 /* Build configuration list for PBXNativeTarget "BaconatorTests" */;
+			buildPhases = (
+				D10EDEA828EFB01A00486C36 /* Sources */,
+				D10EDEA928EFB01A00486C36 /* Frameworks */,
+				D10EDEAA28EFB01A00486C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10EDEAE28EFB01A00486C36 /* PBXTargetDependency */,
+			);
+			name = BaconatorTests;
+			productName = BaconatorTests;
+			productReference = D10EDEAC28EFB01A00486C36 /* BaconatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D10EDEB528EFB01A00486C36 /* BaconatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10EDEC628EFB01A00486C36 /* Build configuration list for PBXNativeTarget "BaconatorUITests" */;
+			buildPhases = (
+				D10EDEB228EFB01A00486C36 /* Sources */,
+				D10EDEB328EFB01A00486C36 /* Frameworks */,
+				D10EDEB428EFB01A00486C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10EDEB828EFB01A00486C36 /* PBXTargetDependency */,
+			);
+			name = BaconatorUITests;
+			productName = BaconatorUITests;
+			productReference = D10EDEB628EFB01A00486C36 /* BaconatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10EDE9428EFB01900486C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D10EDE9B28EFB01900486C36 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D10EDEAB28EFB01A00486C36 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D10EDE9B28EFB01900486C36;
+					};
+					D10EDEB528EFB01A00486C36 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D10EDE9B28EFB01900486C36;
+					};
+				};
+			};
+			buildConfigurationList = D10EDE9728EFB01900486C36 /* Build configuration list for PBXProject "Baconator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10EDE9328EFB01900486C36;
+			productRefGroup = D10EDE9D28EFB01900486C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10EDE9B28EFB01900486C36 /* Baconator */,
+				D10EDEAB28EFB01A00486C36 /* BaconatorTests */,
+				D10EDEB528EFB01A00486C36 /* BaconatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10EDE9A28EFB01900486C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10EDEA728EFB01A00486C36 /* Preview Assets.xcassets in Resources */,
+				D10EDEA428EFB01A00486C36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10EDEAA28EFB01A00486C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10EDEB428EFB01A00486C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10EDE9828EFB01900486C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10EDEA228EFB01900486C36 /* ContentView.swift in Sources */,
+				D10EDEA028EFB01900486C36 /* BaconatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10EDEA828EFB01A00486C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10EDEB128EFB01A00486C36 /* BaconatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10EDEB228EFB01A00486C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10EDEBD28EFB01A00486C36 /* BaconatorUITestsLaunchTests.swift in Sources */,
+				D10EDEBB28EFB01A00486C36 /* BaconatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10EDEAE28EFB01A00486C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10EDE9B28EFB01900486C36 /* Baconator */;
+			targetProxy = D10EDEAD28EFB01A00486C36 /* PBXContainerItemProxy */;
+		};
+		D10EDEB828EFB01A00486C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10EDE9B28EFB01900486C36 /* Baconator */;
+			targetProxy = D10EDEB728EFB01A00486C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D10EDEBE28EFB01A00486C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D10EDEBF28EFB01A00486C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10EDEC128EFB01A00486C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baconator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnasher.Baconator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10EDEC228EFB01A00486C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baconator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnasher.Baconator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D10EDEC428EFB01A00486C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnasher.BaconatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baconator.app/Baconator";
+			};
+			name = Debug;
+		};
+		D10EDEC528EFB01A00486C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnasher.BaconatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baconator.app/Baconator";
+			};
+			name = Release;
+		};
+		D10EDEC728EFB01A00486C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnasher.BaconatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Baconator;
+			};
+			name = Debug;
+		};
+		D10EDEC828EFB01A00486C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnasher.BaconatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Baconator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10EDE9728EFB01900486C36 /* Build configuration list for PBXProject "Baconator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10EDEBE28EFB01A00486C36 /* Debug */,
+				D10EDEBF28EFB01A00486C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10EDEC028EFB01A00486C36 /* Build configuration list for PBXNativeTarget "Baconator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10EDEC128EFB01A00486C36 /* Debug */,
+				D10EDEC228EFB01A00486C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10EDEC328EFB01A00486C36 /* Build configuration list for PBXNativeTarget "BaconatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10EDEC428EFB01A00486C36 /* Debug */,
+				D10EDEC528EFB01A00486C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10EDEC628EFB01A00486C36 /* Build configuration list for PBXNativeTarget "BaconatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10EDEC728EFB01A00486C36 /* Debug */,
+				D10EDEC828EFB01A00486C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10EDE9428EFB01900486C36 /* Project object */;
+}
